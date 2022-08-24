@@ -3,7 +3,7 @@ const axios = require('axios');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 const writer = createCsvWriter({
-  path: './relatorio.csv',
+  path: './arquivo.csv',
   header: [
     {id: 'id', title: 'id'},
     {id: 'name', title: 'name'},
