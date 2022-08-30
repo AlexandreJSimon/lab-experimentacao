@@ -29,7 +29,7 @@ const graphqlQuery = (after) => {
   return {"query": `{
     search(
       type: REPOSITORY
-      first: 30
+      first: 20
       query: "stars:>100 sort:stars-desc"
       after: ${after}
     ) {
